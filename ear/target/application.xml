@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/application_10.xsd" version="10">
+  <description>This is the EAR POM file</description>
+  <display-name>saleforce-ear</display-name>
+  <module>
+    <ejb>saleforce-ejb.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>saleforce-web.war</web-uri>
+      <context-root>/saleforce-web</context-root>
+    </web>
+  </module>
+  <library-directory>lib</library-directory>
+</application>
